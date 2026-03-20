@@ -126,6 +126,9 @@
     <Content Include="example.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="Katalog.aspx" />
+    <Content Include="Plakjanje.aspx" />
+    <Content Include="Proizvodi.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -221,6 +224,27 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Katalog.aspx.cs">
+      <DependentUpon>Katalog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Katalog.aspx.designer.cs">
+      <DependentUpon>Katalog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Plakjanje.aspx.cs">
+      <DependentUpon>Plakjanje.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Plakjanje.aspx.designer.cs">
+      <DependentUpon>Plakjanje.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Proizvodi.aspx.cs">
+      <DependentUpon>Proizvodi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Proizvodi.aspx.designer.cs">
+      <DependentUpon>Proizvodi.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
